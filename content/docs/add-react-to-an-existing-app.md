@@ -14,7 +14,7 @@ While React [can be used](/docs/react-without-es6.html) without a build pipeline
 
 * A **package manager**, such as [Yarn](https://yarnpkg.com/) or [npm](https://www.npmjs.com/). It lets you take advantage of a vast ecosystem of third-party packages, and easily install or update them.
 * A **bundler**, such as [webpack](https://webpack.js.org/) or [Browserify](http://browserify.org/). It lets you write modular code and bundle it together into small packages to optimize load time.
-* A **compiler** such as [Babel](http://babeljs.io/). It lets you write modern JavaScript code that still works in older browsers.
+* A **compiler** such as [Babel](https://github.com/babel/). It lets you write modern JavaScript code that still works in older browsers.
 
 ### Installing React
 
@@ -46,7 +46,7 @@ Both Yarn and npm download packages from the [npm registry](http://npmjs.com/).
 
 ### Enabling ES6 and JSX
 
-We recommend using React with [Babel](http://babeljs.io/) to let you use ES6 and JSX in your JavaScript code. ES6 is a set of modern JavaScript features that make development easier, and JSX is an extension to the JavaScript language that works nicely with React.
+We recommend using React with [Babel](https://github.com/babel/) to let you use ES6 and JSX in your JavaScript code. ES6 is a set of modern JavaScript features that make development easier, and JSX is an extension to the JavaScript language that works nicely with React.
 
 The [Babel setup instructions](https://babeljs.io/docs/setup/) explain how to configure Babel in many different build environments. Make sure you install [`babel-preset-react`](http://babeljs.io/docs/plugins/preset-react/#basic-setup-with-the-cli-) and [`babel-preset-env`](http://babeljs.io/docs/plugins/preset-env/) and enable them in your [`.babelrc` configuration](http://babeljs.io/docs/usage/babelrc/), and you're good to go.
 
